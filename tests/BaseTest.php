@@ -51,6 +51,16 @@ abstract class BaseTest extends \PHPUnit_Framework_TestCase
             '*>*>*<**>*<*'
         ];
 
+        $data[2] = [
+            '1 2 3 0',
+            '*>*>*>*<**>*<<**>*>*<<<*'
+        ];
+
+        $data[2] = [
+            '3 0 1',
+            '*>*>*>*<<<**>*<**>*<*'
+        ];
+
         return $data;
     }
 
